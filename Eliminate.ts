@@ -21,17 +21,25 @@ export default (
 				return On.Buffer;
 			}
 		},
-		Failed: async (Input, _Error) => {
-			console.log(_Error);
-
-			return "";
-		},
 	},
 	Path: new Map([
+		[
+			"./Dependency/Land/Dependency/Editor/build",
+			"./Dependency/Land/Dependency/Editor/build",
+		],
+		[
+			"./Dependency/Land/Dependency/Editor/extensions",
+			"./Dependency/Land/Dependency/Editor/extensions",
+		],
+		[
+			"./Dependency/Land/Dependency/Editor/scripts",
+			"./Dependency/Land/Dependency/Editor/scripts",
+		],
 		[
 			"./Dependency/Land/Dependency/Editor/Source",
 			"./Dependency/Land/Dependency/Editor/Source",
 		],
 	]),
 	File: "**/*.ts",
+	Exclude: (File) => (File.indexOf(".d.ts") !== -1 ? true : false),
 } satisfies Interface);
