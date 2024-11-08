@@ -13,6 +13,10 @@ export default (await import("@playform/eliminate/Target/Function/Merge.js")).de
                 return On.Buffer;
             }
         },
+        Failed: async ({ Input }, _Error) => {
+            console.log(_Error);
+            return `Error: Cannot process file ${Input}`;
+        },
     },
     Path: new Map([
         [
