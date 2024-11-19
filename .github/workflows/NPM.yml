@@ -57,9 +57,9 @@ jobs:
             id-token: write
 
         steps:
-            - uses: actions/checkout@v4.2.1
+            - uses: actions/checkout@v4.2.2
 
-            - uses: actions/setup-node@v4.0.4
+            - uses: actions/setup-node@v4.1.0
               with:
                   node-version: "18"
                   registry-url: "https://registry.npmjs.org"
