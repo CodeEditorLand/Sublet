@@ -29,7 +29,3 @@ repository = "https://github.com/CodeEditorLand/Land"
 
 [workspace.dependencies]
 prun = { version = "*" }
-
-[features]
-default = []
-Debug = ["unbug/enable"]
