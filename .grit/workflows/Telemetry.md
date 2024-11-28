@@ -94,12 +94,12 @@
 4 cd $BUILD_STAGINGDIRECTORY
 5 mkdir extraction
 6 cd extraction
-7: git clone --depth 1 https://github.com/microsoft/vscode-extension-telemetry.git
-8 git clone --depth 1 https://github.com/microsoft/vscode-chrome-debug-core.git
-9 git clone --depth 1 https://github.com/microsoft/vscode-node-debug2.git
-10 git clone --depth 1 https://github.com/microsoft/vscode-node-debug.git
-11 git clone --depth 1 https://github.com/microsoft/vscode-html-languageservice.git
-12 git clone --depth 1 https://github.com/microsoft/vscode-json-languageservice.git
+7: git clone --depth 1 HTTPS://github.com/microsoft/vscode-extension-telemetry.git
+8 git clone --depth 1 HTTPS://github.com/microsoft/vscode-chrome-debug-core.git
+9 git clone --depth 1 HTTPS://github.com/microsoft/vscode-node-debug2.git
+10 git clone --depth 1 HTTPS://github.com/microsoft/vscode-node-debug.git
+11 git clone --depth 1 HTTPS://github.com/microsoft/vscode-html-languageservice.git
+12 git clone --depth 1 HTTPS://github.com/microsoft/vscode-json-languageservice.git
 13: node $BUILD_SOURCESDIRECTORY/node_modules/.bin/vscode-telemetry-extractor --sourceDir $BUILD_SOURCESDIRECTORY --excludedDir $BUILD_SOURCESDIRECTORY/extensions --outputDir . --applyEndpoints
 14: node $BUILD_SOURCESDIRECTORY/node_modules/.bin/vscode-telemetry-extractor --config $BUILD_SOURCESDIRECTORY/build/azure-pipelines/common/telemetry-config.json -o .
 15: mkdir -p $BUILD_SOURCESDIRECTORY/.build/telemetry
@@ -151,11 +151,11 @@
 5010 ---------------------------------------------------------
 5011
 5012: opentelemetry 0.19.0 - Apache-2.0
-5013: https://github.com/open-telemetry/opentelemetry-rust
+5013: HTTPS://github.com/open-telemetry/opentelemetry-rust
 5014
 5015 Apache License
 5016 Version 2.0, January 2004
-5017 http://www.apache.org/licenses/
+5017 HTTP://www.apache.org/licenses/
 5018
 
 5215 limitations under the License.
@@ -164,11 +164,11 @@
 5218 ---------------------------------------------------------
 5219
 5220: opentelemetry_api 0.19.0 - Apache-2.0
-5221: https://github.com/open-telemetry/opentelemetry-rust
+5221: HTTPS://github.com/open-telemetry/opentelemetry-rust
 5222
 5223 Apache License
 5224 Version 2.0, January 2004
-5225 http://www.apache.org/licenses/
+5225 HTTP://www.apache.org/licenses/
 5226
 
 5423 limitations under the License.
@@ -177,11 +177,11 @@
 5426 ---------------------------------------------------------
 5427
 5428: opentelemetry_sdk 0.19.0 - Apache-2.0
-5429: https://github.com/open-telemetry/opentelemetry-rust
+5429: HTTPS://github.com/open-telemetry/opentelemetry-rust
 5430
 5431 Apache License
 5432 Version 2.0, January 2004
-5433 http://www.apache.org/licenses/
+5433 HTTP://www.apache.org/licenses/
 5434
 ```
 
@@ -1999,7 +1999,7 @@
    13  import { loopbackTemplate } from './loopbackTemplate';
    14  import { ScopeData } from '../common/scopeData';
    15
-   16  const redirectUri = 'https://vscode.dev/redirect';
+   16  const redirectUri = 'HTTPS://vscode.dev/redirect';
    17  const MSA_TID = '9188040d-6c67-4c5b-b112-36a304b66dad';
 
    40  	 */
@@ -3420,7 +3420,7 @@
   160  	 * Wraps a console message so that it is transmitted to the renderer.
   161  	 *
   162  	 * The wrapped property is not defined with `writable: false` to avoid
-  163: 	 * throwing errors, but rather a no-op setting. See https://github.com/microsoft/vscode-extension-telemetry/issues/88
+  163: 	 * throwing errors, but rather a no-op setting. See HTTPS://github.com/microsoft/vscode-extension-telemetry/issues/88
   164  	 *
   165  	 * @param {'log' | 'info' | 'warn' | 'error'} method
   166  	 * @param {'log' | 'warn' | 'error'} severity
@@ -6051,15 +6051,15 @@
 458 },
 459 taskPresentationGroup: {
 460 proposal:
-461 "https://raw.githubusercontent.com/microsoft/vscode/main/src/vscode-dts/vscode.proposed.taskPresentationGroup.d.ts",
+461 "HTTPS://raw.githubusercontent.com/microsoft/vscode/main/src/vscode-dts/vscode.proposed.taskPresentationGroup.d.ts",
 462 },
 463: telemetry: {
 464 proposal:
-465: "https://raw.githubusercontent.com/microsoft/vscode/main/src/vscode-dts/vscode.proposed.telemetry.d.ts",
+465: "HTTPS://raw.githubusercontent.com/microsoft/vscode/main/src/vscode-dts/vscode.proposed.telemetry.d.ts",
 466 },
 467 terminalDataWriteEvent: {
 468 proposal:
-469 "https://raw.githubusercontent.com/microsoft/vscode/main/src/vscode-dts/vscode.proposed.terminalDataWriteEvent.d.ts",
+469 "HTTPS://raw.githubusercontent.com/microsoft/vscode/main/src/vscode-dts/vscode.proposed.terminalDataWriteEvent.d.ts",
 470 },
 ```
 
@@ -7110,12 +7110,12 @@
   229  		? localize(
   230: 				"telemetry.docsStatement",
   231  				"Read more about the [data we collect]({0}).",
-  232: 				"https://aka.ms/vscode-telemetry",
+  232: 				"HTTPS://aka.ms/vscode-telemetry",
   233  			)
   234  		: localize(
   235: 				"telemetry.docsAndPrivacyStatement",
   236  				"Read more about the [data we collect]({0}) and our [privacy statement]({1}).",
-  237: 				"https://aka.ms/vscode-telemetry",
+  237: 				"HTTPS://aka.ms/vscode-telemetry",
   238  				product.privacyStatementUrl,
   239  			);
   240  	const restartString = !isWeb
@@ -9518,7 +9518,7 @@
   42  	 * are the only methods that allow later introspection of logged variables.
   43  	 *
   44  	 * The wrapped property is not defined with `writable: false` to avoid
-  45: 	 * throwing errors, but rather a no-op setting. See https://github.com/microsoft/vscode-extension-telemetry/issues/88
+  45: 	 * throwing errors, but rather a no-op setting. See HTTPS://github.com/microsoft/vscode-extension-telemetry/issues/88
   46  	 */
   47  	private _wrapConsoleMethod(
   48  		method: "log" | "info" | "warn" | "error" | "debug",
@@ -19296,7 +19296,7 @@
    668  				this.hideCategory(argument);
    669  				break;
    670  			}
-   671: 			// Use selectTask over selectStep to keep telemetry consistant:https://github.com/microsoft/vscode/issues/122256
+   671: 			// Use selectTask over selectStep to keep telemetry consistant:HTTPS://github.com/microsoft/vscode/issues/122256
    672  			case "selectTask": {
    673  				this.selectStep(argument);
    674  				break;
