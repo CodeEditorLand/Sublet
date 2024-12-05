@@ -6,7 +6,7 @@ members = [
 	"Element/River",
 	"Element/Sun",
 
-	# "Dependency/Land/Cargo/Maintain",
+	"Dependency/Land/Cargo/Maintain",
 ]
 resolver = "2"
 exclude = [
