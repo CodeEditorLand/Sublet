@@ -29,20 +29,20 @@ export default (
 	},
 	Path: new Map([
 		[
-			"./Dependency/Land/Dependency/Editor/build",
-			"./Dependency/Land/Dependency/Editor/build",
+			"./Dependency/Microsoft/Dependency/Editor/build",
+			"./Dependency/Microsoft/Dependency/Editor/build",
 		],
 		[
-			"./Dependency/Land/Dependency/Editor/extensions",
-			"./Dependency/Land/Dependency/Editor/extensions",
+			"./Dependency/Microsoft/Dependency/Editor/extensions",
+			"./Dependency/Microsoft/Dependency/Editor/extensions",
 		],
 		[
-			"./Dependency/Land/Dependency/Editor/scripts",
-			"./Dependency/Land/Dependency/Editor/scripts",
+			"./Dependency/Microsoft/Dependency/Editor/scripts",
+			"./Dependency/Microsoft/Dependency/Editor/scripts",
 		],
 		[
-			"./Dependency/Land/Dependency/Editor/Source",
-			"./Dependency/Land/Dependency/Editor/Source",
+			"./Dependency/Microsoft/Dependency/Editor/Source",
+			"./Dependency/Microsoft/Dependency/Editor/Source",
 		],
 	]),
 	File: "**/*.ts",

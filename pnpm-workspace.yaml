@@ -1,6 +1,6 @@
 packages:
     - "Dependency/Biome/NPM/**"
-    - "Dependency/Land/NPM/**"
+    - "Dependency/Microsoft/NPM/**"
     - "Dependency/OXC/NPM/**"
     - "Dependency/Rolldown/NPM/**"
     - "Dependency/SWC/NPM/**"

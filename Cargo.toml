@@ -6,12 +6,12 @@ members = [
 	"Element/River",
 	"Element/Sun",
 
-	"Dependency/Land/Cargo/Maintain",
+	"Dependency/Microsoft/Cargo/Maintain",
 ]
 resolver = "2"
 exclude = [
-	"Dependency/Land/Dependency/Editor/cli",
-	"Dependency/Land/Dependency/Editor/build/win32",
+	"Dependency/Microsoft/Dependency/Editor/cli",
+	"Dependency/Microsoft/Dependency/Editor/build/win32",
 ]
 
 [workspace.package]
