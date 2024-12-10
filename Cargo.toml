@@ -1,12 +1,12 @@
 [workspace]
 members = [
 	"Element/Echo",
+	"Element/Maintain",
+	"Element/Maintain/Dependency/CodeEditorLand/Dependency/Queue",
 	"Element/Mountain",
 	"Element/Rest",
 	"Element/River",
 	"Element/Sun",
-
-	"Dependency/Microsoft/Cargo/Maintain", "Element/RocksDBCLI",
 ]
 resolver = "2"
 exclude = [
