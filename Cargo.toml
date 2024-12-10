@@ -6,7 +6,7 @@ members = [
 	"Element/River",
 	"Element/Sun",
 
-	"Dependency/Microsoft/Cargo/Maintain",
+	"Dependency/Microsoft/Cargo/Maintain", "Element/RocksDBCLI",
 ]
 resolver = "2"
 exclude = [
