@@ -25,7 +25,7 @@
 	},
 	"dependencies": {},
 	"devDependencies": {
-		"@codeeditorland/biome": "0.0.1",
+		"@biomejs/biome": "1.9.4",
 		"@ianvs/prettier-plugin-sort-imports": "4.4.0",
 		"@playform/build": "0.2.0",
 		"@playform/eliminate": "0.0.4",
