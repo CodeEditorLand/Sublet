@@ -34,8 +34,8 @@
 		"@prettier/plugin-php": "0.22.2",
 		"@prettier/plugin-ruby": "4.0.4",
 		"@tailwindcss/aspect-ratio": "0.4.2",
-		"@tailwindcss/forms": "0.5.9",
-		"@tailwindcss/typography": "0.5.15",
+		"@tailwindcss/forms": "0.5.10",
+		"@tailwindcss/typography": "0.5.16",
 		"@trivago/prettier-plugin-sort-imports": "5.2.1",
 		"@turbo/codemod": "2.3.3",
 		"@vue/compiler-sfc": "3.5.13",
@@ -43,7 +43,7 @@
 		"prettier": "3.4.2",
 		"prettier-plugin-astro": "0.14.1",
 		"prettier-plugin-autocorrect": "0.4.1",
-		"prettier-plugin-java": "2.6.5",
+		"prettier-plugin-java": "2.6.6",
 		"prettier-plugin-kotlin": "2.1.0",
 		"prettier-plugin-organize-attributes": "1.0.0",
 		"prettier-plugin-packagejson": "2.5.6",
@@ -56,7 +56,7 @@
 		"prettier-plugin-toml": "2.0.1",
 		"tailwindcss": "3.4.17",
 		"turbo": "2.3.3",
-		"typescript": "5.7.2"
+		"typescript": "5.7.3"
 	},
 	"packageManager": "pnpm@9.15.0",
 	"publishConfig": {
