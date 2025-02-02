@@ -15,7 +15,7 @@ exclude = [
 ]
 
 [workspace.package]
-authors = ["🖋️ Source — 👐🏻 Open — <Source/Open@Editor.Land>"]
+authors = ["Source 🖋️ Open 👐🏻 <Source/Open@Editor.Land>"]
 documentation = "HTTPS://Documentation.Editor.Land"
 edition = "2021"
 homepage = "HTTPS://Editor.Land/"
