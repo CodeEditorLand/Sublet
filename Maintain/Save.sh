@@ -47,7 +47,7 @@ Dependency=(
 )
 
 for Dependency in "${Dependency[@]}"; do
-	(
+	# (
 		\cd "$Current/../$Dependency" || \exit
 
 		\pwd
@@ -61,7 +61,7 @@ for Dependency in "${Dependency[@]}"; do
 		\git pull
 
 		\cd - || \exit
-	) &
+	# ) &
 done
 
-\wait
+# \wait
