@@ -37,6 +37,10 @@ export default (await import("@playform/eliminate/Target/Function/Merge.js")).de
             "./Dependency/Microsoft/Dependency/Editor/Source",
             "./Dependency/Microsoft/Dependency/Editor/Source",
         ],
+        [
+            "./Dependency/Microsoft/Dependency/Editor/src",
+            "./Dependency/Microsoft/Dependency/Editor/src",
+        ],
     ]),
     File: "**/*.ts",
     Exclude: (File) => (File.indexOf(".d.ts") !== -1 ? true : false),
