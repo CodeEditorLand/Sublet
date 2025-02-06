@@ -14,7 +14,9 @@ export default (
 					await import(
 						"@playform/eliminate/Target/Function/Output.js"
 					)
-				).default(On.Buffer.toString());
+				).default(On.Buffer.toString(), {
+					Comment: true,
+				});
 			} catch (_Error) {
 				console.log(_Error);
 
