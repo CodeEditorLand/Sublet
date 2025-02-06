@@ -6,7 +6,9 @@ export default (await import("@playform/eliminate/Target/Function/Merge.js")).de
     Action: {
         Wrote: async (On) => {
             try {
-                return (await import("@playform/eliminate/Target/Function/Output.js")).default(On.Buffer.toString());
+                return (await import("@playform/eliminate/Target/Function/Output.js")).default(On.Buffer.toString(), {
+                    Comment: true,
+                });
             }
             catch (_Error) {
                 console.log(_Error);
